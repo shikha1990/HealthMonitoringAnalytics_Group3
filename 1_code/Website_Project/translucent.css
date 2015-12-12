@@ -1,0 +1,267 @@
+/* CSS Document */
+
+.nav
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+#menu {
+	background: #669933 ;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 1024px;
+}
+#menu1 {
+	/*background: #633cc66;*/
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 800px;
+}
+#menu li {
+	float: left;
+	font: 100% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#menu1 li {
+	float: left;
+	font: 100% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+#menu a {
+	background: #669933 url(images/seperator.gif%22) bottom right no-repeat;
+	color: #ccc;
+	float: left;
+	margin: 0;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+#menu1 a {
+	/*background: #333 url("images/seperator.gif") bottom right no-repeat;*/
+	color: #ccc;
+	float: left;
+	margin: 0;
+	padding: 8px 12px;
+	text-decoration: none;
+	}
+#menu a:hover {
+	background: ORANGE url(images/hover.gif%22) bottom center no-repeat;
+	color: #fff;
+	padding-bottom: 8px;
+	}
+#menu1 a:hover {
+	/*background: #2580a2 url("images/hover.gif") bottom center no-repeat; */
+	color: #fff;
+	padding-bottom: 8px;
+	}
+#top
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	
+	
+}
+#top a
+{
+text-decoration: none;
+color: #000000;
+}
+.middle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	color: #000000;
+
+}
+.header2
+{
+	border: 5px solid #5EAEFF;
+}
+.welcome
+{
+	background-color: GREEN;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+
+}
+   #gallery {
+	position:relative;
+	height:240px;
+	width: 500px;
+	border: thin outset #DBDBDB;
+}
+
+	/*top: 145px;*/
+    #gallery a {
+        float:left;
+        position:absolute;
+    }
+     
+    #gallery a img {
+        border:none;
+    }
+     
+    #gallery a.show {
+        z-index:500
+    }
+	.imageslider
+	{
+	border: thin inset #CCCCCC;
+	
+	}
+	.acessemiddle
+	{
+	padding-top: 25px;
+	
+	}
+	.accmid
+	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	
+	}
+	.acclefthed
+	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFF;
+	background-color: #669933;
+	font-weight: bold;
+	height:25px;
+	
+	}
+	.acclef
+	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: GREEN;
+	padding-left: 25px;
+	}
+	.acclefborder
+	{
+	border: thin inset #BLUE;
+	
+	}
+	.servicestxt
+	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	padding-top:10px;
+	padding-left:25px;
+	font-weight: bold;
+	}
+	.servicespan
+	{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FF0000;
+	font-weight: bold;
+	padding-left:10px;
+	}
+ .contactmatter
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+ }
+ .productas
+ {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #666666; 
+	
+ }
+ .productshead
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: RED;
+	
+ }
+ .about
+ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666666;
+	padding-left: 25px;
+	padding-top:15px;
+ 
+ }
+a
+{
+text-decoration:none;
+color: #666666;
+}
+a:hover
+{
+color:blue;
+text-decoration:underline;
+} 
+.home
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666666;
+}
+.home1
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: bold;
+	color: #666666;
+	
+}
+.home2
+{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666666;
+	
+}
+.CreateProfile
+	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFF;
+	background-color:;
+	font-weight: bold;
+	height:25px;
+	
+	}
+.try
+	{
+	text-align:left;
+        margin-top: 0px	;
+	margin-left:  0px;
+	padding :0px;
+	
+	}

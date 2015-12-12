@@ -1,0 +1,70 @@
+body { margin: 20px;
+background-image:url("images/rbackground1.jpg");
+ }
+
+
+
+input
+{
+  -moz-border-radius: 15px;
+ border-radius: 9px;
+    border:solid 1px black;
+    padding:5px;
+}
+#welcome{position:relative; top:-500px; float:right; margin-right:120px; font-family:Times New Roman;}
+#header { width: 700px; min-height: 150px; margin-left:350px; margin-top:50px;}
+#navigation { width: 1500px; position: relative; top:-450px; left:-20px; }
+#navigation ul {  margin-top:100px; padding-top:10px; padding-bottom:10px; padding-left:5px; padding-right:5px;list-style-type: none;background-color:#000000; border:2px inset #580000; font-family:Times New Roman;}
+#navigation ul li { display: inline; margin-right: 3px; font-family:Times New Roman; }
+.home{color:white;margin-left:5px;}
+.ticker{margin-left:20px;}
+.rev{margin-left:20px;}
+.about{margin-left:20px;}
+.sinfo{margin-left:20px;}
+.log{float:right; margin-right:5px;}
+
+#Bar{ position:relative;
+top:-100px;
+left:10px;}
+#Bar ul{margin: 0;list-style-type: none;
+}
+#Bar ul li{display: inline;}
+.short{
+
+padding:80 25 80 25;
+margin-left:200px;
+}
+.long{
+
+padding:80 25 80 25;
+margin-left:120px;
+}
+.ana{
+
+padding:80 70 80 70;
+margin-left:120px;
+}
+
+
+#content { width: 960px; min-height: 400px; margin: 0 auto; /*background: #7a8288;*/ overflow: auto; }
+#contentleft { width: 580px; float: left; margin-right: 20px; padding: 20px; }
+#contentleft h1 { /*font-size: 24px;*/ margin-top: 0;}
+
+#sidebar { width: 280px; float: left; padding: 20px; }
+.sidebar-element { overflow: auto; margin-top: 15px; }
+#sidebar h3 { color: #7a8288; background: #272b30; padding: 7px 10px; text-transform: uppercase; font-size: 14px; font-family: Comic Sans MS;}
+#sidebar ul {margin: 0; padding: 0; list-style-type: none; }
+#sidebar ul li { margin: 0 0 7px 0; }
+
+#sides { width: 280px; float: left; padding: 20px; }
+.sides-element { overflow: auto; margin-top: 15px; }
+#sides h3 { color: #272b30; background: #272b30; padding: 7px 10px; text-transform: uppercase; font-size: 14px; }
+#sides ul {margin: 0; padding: 0; list-style-type: none; }
+#sides ul li { margin: 0 0 7px 0; }
+
+#footer { width: 960px; margin: 0 auto; text-align: center; }
+#footer ul { margin: 15px 0 0 0; padding: 0; list-style-type: none; }
+#footer ul li { display: inline; margin-right: 5px; }
+#footer ul li a { text-transform: uppercase; text-decoration: none; }
+#footer ul li a:hover { text-decoration: underline; }
+#footer p { font-weight: bold; }
